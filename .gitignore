@@ -1,3 +1,5 @@
 .settings
 ebin
 .project
+*.beam
+*.dll
