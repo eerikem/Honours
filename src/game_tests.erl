@@ -18,7 +18,7 @@ player_move_test_()->
 	 ?setup(fun place_token/1)}.
 
 place_token(Pid)->
-	L = connectFour:drop_token(Pid,1),
+	L = connectFour:drop_token(Pid,2),
 	[?_assertMatch({ok,[[o,o,o,o,o,z]|_]},L)].
   
 
