@@ -1,0 +1,5 @@
+
+
+
+main(_)->
+	eunit:test(game_tests).
